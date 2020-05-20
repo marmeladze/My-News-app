@@ -1,0 +1,30 @@
+body{
+    background: radial-gradient(black, transparent);
+}
+.slide-wrap > a{
+  color: white;
+  font-family: fantasy;
+}
+
+.end {
+    text-align: center;
+    background: white;
+    margin-top: 5%;
+}
+.slider {
+    display: flex;
+    overflow-x: auto;
+    
+    scroll-snap-type: x mandatory;    
+  }
+  .slide {
+    
+    flex-shrink: 0;
+    height: 100%;
+  }
+  .slide-wrap{
+  text-align: right;
+  }
+  #slide-1 {
+    display: none;
+  }
