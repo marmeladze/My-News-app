@@ -4,7 +4,7 @@ class siteNews {
          this.req;
     } 
     render_sites(arr){
-        document.querySelector("#sites_shows").innerHTML += arr
+        document.querySelector("#sites_shows").innerHTML = arr
             .map(element  =>  `<div class="col-md-3" style="float:left">                        
                                     <div class="card-body card mb-2">
                                     <h4 class="card-title text-center">${element.name}</h4>
