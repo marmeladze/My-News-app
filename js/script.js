@@ -1,7 +1,3 @@
- 
-//let url_sources = "https://newsapi.org/v2/sources?apiKey=eae47fa67ee0482da57dfc2ea4f8afeb"
-                    "https://newsapi.org/v2/sources?apiKey=eae47fa67ee0482da57dfc2ea4f8afeb"
-
 let api = "https://newsapi.org/v2/"
 const apiKey = "eae47fa67ee0482da57dfc2ea4f8afeb";
 let siteNews = new siteNews();
