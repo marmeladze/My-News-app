@@ -1,2 +1,2 @@
-News Web Site
+News Website
 
