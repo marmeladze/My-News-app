@@ -1,2 +1,2 @@
-web saite
+News Web Site
 
